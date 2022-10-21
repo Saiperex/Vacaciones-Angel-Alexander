@@ -1,0 +1,90 @@
+main
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.entrada
+{
+    width: 60vw;
+    height: 60vh;
+    text-align: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 0 0 5px grey, 0 0 10px grey,0 0 20px grey ;
+}
+.entrada img
+{
+    margin: 10px;
+    width: 40%;
+}
+.entrada h1
+{
+    margin: 10px;
+    font-size: 90px;
+}
+.entrada h2
+{
+    margin: 10px;
+    font-size: 60px; 
+}
+.entrada button
+{
+    margin: 10px;
+    width: 30%;
+    height: 10%;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    color:black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 5px white, 0 0 10px white,0 0 20px white ;
+    box-shadow: 5px 5px 18px 0px rgba(255,255,255,0.75);
+}
+.entrada button:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.entrada button:active
+{
+    box-shadow: -5px -5px 18px 0px rgba(255,255,255,0.75);
+    transition: 0.5s all;
+}
+
+@media screen and (max-width: 480px) 
+{
+    body 
+    {
+        background-image: url("../imagenes/tapiz.jpg");
+    }
+    main
+    {
+        background-size: contain;
+    }
+    .entrada 
+    {
+        width: 80vw;
+        height: 80vh;
+    }
+    .entrada img 
+    {
+        width: 100%;
+    }
+    .entrada h1 
+    {
+        font-size: 50px;
+    }
+    .entrada h2
+    {
+        font-size: 30px;
+    } 
+    .entrada button 
+    {
+        border-radius: 10px;
+    }
+}
