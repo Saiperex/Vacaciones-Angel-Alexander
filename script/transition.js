@@ -12,7 +12,7 @@ function cambiarFondo()
     {
         index=0;
     }
-    var url="url('../imagenes/"+imagenes[index]+"')"
+    var url="url('imagenes/"+imagenes[index]+"')"
     fondo.style.backgroundImage=url;
     fondo.style.transition="1s all";
     tiempo=window.setTimeout('cambiarFondo()',5000)
